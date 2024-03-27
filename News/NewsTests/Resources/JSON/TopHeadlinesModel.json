@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Ex-Google engineer charged with stealing AI secrets",
+            "description": "Linwei Ding, a Chinese national, is also accused of secretly working for competitors in China.",
+            "url": "https://www.bbc.co.uk/news/world-us-canada-68497508",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/72A2/production/_131064392_google-top-reuters.jpg",
+            "publishedAt": "2024-03-07T04:37:14.0174321Z",
+            "content": "A former Google software engineer has been charged in the US with stealing trade secrets about artificial intelligence (AI) while secretly working for two Chinese companies.\r\nLinwei Ding, also known … [+3398 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Trump challenges Biden to debates 'anytime' after Super Tuesday wins",
+            "description": "Donald Trump says he is ready to go toe-to-toe. The Biden camp says the Republican is \"thirsty for attention\".",
+            "url": "https://www.bbc.co.uk/news/world-us-canada-68497838",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8CEB/production/_132857063_gettyimages-1229228819.jpg",
+            "publishedAt": "2024-03-07T04:37:12.7989858Z",
+            "content": "Donald Trump has challenged Joe Biden to TV debates, as the rivals hurtle towards a White House rematch following their sweep of the Super Tuesday votes.\r\nThe Republican said he would take part in a … [+2500 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Ukraine war: Eastern residents brace for Russian advance",
+            "description": "Russian troops are advancing in eastern Ukraine. Residents must choose - flee, or risk occupation.",
+            "url": "https://www.bbc.co.uk/news/world-europe-68493215",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8C19/production/_132856853_kos-stationhug.png",
+            "publishedAt": "2024-03-07T03:22:13.7781431Z",
+            "content": "In eastern Ukraine, the tide of this war hasn't just changed - it's coming in fast.\r\n\"We know what's coming,\" says Mariya as she packs up the TV in her flat in Kostyantynivka. She's having it deliver… [+5924 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Oscars 2024: Are films now 'too long' as Hugh Grant suggests?",
+            "description": "Actor Hugh Grant recently questioned film runtimes - but have they changed and if so, why?",
+            "url": "https://www.bbc.co.uk/news/entertainment-arts-68379592",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/12FF6/production/_132841877_hggettyimages-2020817955.jpg",
+            "publishedAt": "2024-03-07T02:22:14.9665002Z",
+            "content": "\"Oompa-loompa, doompity-dee, now the best director categor-ee. Oompa Loompa doompity-dong, most of these films were frankly too long.\"\r\nFresh from starring in Wonka, Hugh Grant's (life-size) onstage … [+9979 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Three killed in Houthi missile attack on cargo ship - US military",
+            "description": "The sailors' deaths are the first resulting from an attack on a merchant vessel by the Yemeni group.",
+            "url": "https://www.bbc.co.uk/news/world-middle-east-68490695",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/03A7/production/_132853900_mediaitem132853899.jpg",
+            "publishedAt": "2024-03-07T01:22:15.9499659Z",
+            "content": "Three crew members have been killed in a Houthi missile strike on a cargo ship off southern Yemen, US officials say - the first deaths the group's attacks on merchant vessels have caused.\r\nThe Barbad… [+5443 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Doritos cuts ties with transgender influencer over posts",
+            "description": "Samantha Hudson had made references to violence and paedophilia that prompted calls for a boycott.",
+            "url": "https://www.bbc.co.uk/news/world-us-canada-68495705",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/FB09/production/_132856246_samanthahudson2.jpg",
+            "publishedAt": "2024-03-07T01:22:14.7315191Z",
+            "content": "The company that makes Doritos cut ties with a transgender influencer after reports she posted about violence and paedophilia. \r\nSamantha Hudson, a singer and actor from Spain, has around 370,000 Ins… [+2660 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Samantha Murphy: Man arrested over disappearance of Australian woman",
+            "description": "Samantha Murphy has not been seen since leaving her home for a run more than a month ago.",
+            "url": "https://www.bbc.co.uk/news/world-australia-68497878",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/70C1/production/_132856882_samanthamurphy.jpg",
+            "publishedAt": "2024-03-07T01:22:13.1850292Z",
+            "content": "A man has been arrested over the disappearance of an Australian woman whose case has gripped national attention for a month.\r\nSamantha Murphy was last seen leaving her home in East Ballarat, Victoria… [+1717 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Robot ships: Huge remote controlled vessels are setting sail",
+            "description": "Ocean-going vessels with no-one on board - a vision of the future that's coming faster you think.",
+            "url": "https://www.bbc.co.uk/news/science-environment-68486462",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C8AE/production/_132847315_oishipdrone2.jpg",
+            "publishedAt": "2024-03-07T01:07:17.153546Z",
+            "content": "It sounds like science fiction. Ocean-going ships with no-one on board. But this vision of the future is coming - and sooner than you might think.\r\nYou can glimpse it in a Norwegian fjord where a hug… [+7682 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Hannah Gutierrez-Reed: Rust armourer guilty of cinematographer's death",
+            "description": "Hannah Gutierrez-Reed was found not guilty of a second charge - tampering with evidence.",
+            "url": "https://www.bbc.co.uk/news/world-us-canada-68486069",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C329/production/_132716994_gettyimages-2023781554.jpg",
+            "publishedAt": "2024-03-06T23:37:15.2782739Z",
+            "content": "A movie set weapons handler who loaded a gun for actor Alec Baldwin before it fired and killed a cinematographer on the set of Rust in 2021 has been found guilty of involuntary manslaughter.\r\nHannah … [+3101 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Prosecutors drop charges in Hotel California lyrics case",
+            "description": "New evidence prompted concerns about the fairness of the trial against three men facing criminal charges.",
+            "url": "https://www.bbc.co.uk/news/world-us-canada-68494126",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/072B/production/_132853810_gettyimages-2033875945.jpg",
+            "publishedAt": "2024-03-06T19:22:16.6117332Z",
+            "content": "Prosecutors have dropped a case against three men charged with conspiring to sell handwritten lyrics to the famed Eagles hit Hotel California. \r\nA notepad containing the lyrics was allegedly stolen b… [+2374 chars]"
+        }
+    ]
+}
