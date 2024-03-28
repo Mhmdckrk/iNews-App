@@ -1,4 +1,4 @@
-# MovieKids App
+# iNews App
 
  News App Clone with **News API**, MVVM, includes Unit Tests.
 
