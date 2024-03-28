@@ -31,17 +31,20 @@ class SliderButton: UIButton {
         }
 
         private func updateButtonAppearance() {
+            
+//            
+
             if isSelected {
-                backgroundColor = .black
+                backgroundColor = UIColor(named: "darkvelvet")
                 tintColor = .white
                 setTitleColor(.white, for: .normal)
             } else {
                 backgroundColor = .white
-                tintColor = .black
-                setTitleColor(.black, for: .normal)
+                tintColor = UIColor(named: "darkvelvet")
+                setTitleColor(UIColor(named: "darkvelvet"), for: .normal)
             }
 
-            layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1).cgColor
+            layer.borderColor = UIColor(named: "darkvelvet")?.cgColor
             layer.borderWidth = 1
             layer.cornerRadius = 8
         }

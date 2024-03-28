@@ -23,7 +23,19 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel?.delegateVC = self
-        
+        if #available(iOS 13.0, *) {
+            let attributes: [NSAttributedString.Key: Any] = [
+                .foregroundColor: UIColor.white,
+                .font: UIFont.systemFont(ofSize: 22.0)
+            ]
+            navigationController?.navigationBar.standardAppearance.titleTextAttributes = attributes
+        } else {
+            let attributes: [NSAttributedString.Key: Any] = [
+                .foregroundColor: UIColor.white,
+                .font: UIFont.systemFont(ofSize: 22.0)
+            ]
+            navigationController?.navigationBar.titleTextAttributes = attributes
+        }
         buttonCollection.dataSource = self
         buttonCollection.delegate = self
         buttonCollection.register(ButtonsCell.nib(), forCellWithReuseIdentifier: ButtonsCell.identifier)

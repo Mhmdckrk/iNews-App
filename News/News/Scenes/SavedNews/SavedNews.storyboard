@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Saved News-->
+        <scene sceneID="h3l-2l-uvd">
+            <objects>
+                <viewController storyboardIdentifier="SavedNews" title="Saved News" id="nKF-Bz-xzv" customClass="SavedNewsViewController" customModule="News" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EIF-xc-qcJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="AZk-Cq-BI4">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="saveCell" id="BZF-mQ-gfn" customClass="SaveTableViewCell" customModule="News" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BZF-mQ-gfn" id="MsF-Ti-YYJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fOe-Oy-ytB"/>
+                        <color key="backgroundColor" name="darkvelvet"/>
+                        <constraints>
+                            <constraint firstItem="AZk-Cq-BI4" firstAttribute="centerX" secondItem="EIF-xc-qcJ" secondAttribute="centerX" id="SWt-SL-FWK"/>
+                            <constraint firstItem="AZk-Cq-BI4" firstAttribute="leading" secondItem="fOe-Oy-ytB" secondAttribute="leading" id="apM-5x-FTh"/>
+                            <constraint firstItem="AZk-Cq-BI4" firstAttribute="bottom" secondItem="fOe-Oy-ytB" secondAttribute="bottom" id="fwo-Bn-i5R"/>
+                            <constraint firstItem="AZk-Cq-BI4" firstAttribute="top" secondItem="fOe-Oy-ytB" secondAttribute="top" id="oyZ-1a-hrN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableViews" destination="AZk-Cq-BI4" id="9Ce-R7-e6f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u3w-eg-pw8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.58015267175573" y="-285.21126760563379"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="darkvelvet">
+            <color red="0.56620896464646464" green="0.0093286278001309172" blue="0.051780741332167757" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

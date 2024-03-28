@@ -29,7 +29,7 @@ class ButtonsCell: UICollectionViewCell {
         guard let viewModel = viewModel else { return }
         
         guard let category = sender.titleLabel?.text else { return }
-        
+        print(category)
         if !viewModel.selectedCategories.isEmpty {
             if viewModel.selectedCategories.count == viewModel.fetchedCategories.count {
                 if sender.isSelected {

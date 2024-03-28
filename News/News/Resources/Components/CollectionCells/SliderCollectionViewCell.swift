@@ -52,5 +52,5 @@ class SliderCollectionViewCell: UICollectionViewCell {
         }
         viewModel.getImage(imgUrl: model.imgUrl, images: self.images)
     }
-
+    
 }

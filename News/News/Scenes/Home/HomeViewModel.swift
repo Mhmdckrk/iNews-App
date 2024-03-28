@@ -25,7 +25,7 @@ final class HomeViewModel: HomeViewModelProtocol {
     
     func filterData(categories: [String]) {
         filteredNews = self.news.filter { newsItem in
-            return categories.contains(newsItem.category!)
+            return categories.contains(newsItem.category!.capitalized)
         }
         let filteredModel = filteredNews.map { HomeModel(model: $0) }
        
@@ -42,9 +42,9 @@ final class HomeViewModel: HomeViewModelProtocol {
             case .success(let response):
             self.news = response
             self.filteredNews = response
-            self.fetchedCategories = Array(Set(response.compactMap { $0.category }))
+                self.fetchedCategories = Array(Set(response.compactMap { $0.category })).map{ $0.capitalized }
             self.selectedCategories = self.fetchedCategories
-            let model = response.map { HomeModel(model: $0) }
+                let model = response.map { HomeModel(model: $0) }
             self.notifyVC(.showNewsList(model))
             self.notifyVC(.showButtons(self.fetchedCategories))
             case .failure(let error):

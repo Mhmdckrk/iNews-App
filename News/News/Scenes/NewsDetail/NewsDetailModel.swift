@@ -20,6 +20,7 @@ struct NewsDetailModel {
     let imgUrl: String
     let pageTitle: String
     var savedDate = Date()
+    let newsUrl: String
 }
 
 extension NewsDetailModel {
@@ -30,7 +31,7 @@ extension NewsDetailModel {
             content: news.content ?? "Content",
             date: news.publishedAt ?? Date(),
             imgUrl: news.urlToImage ?? "https://dummyimage.com/300x200/cccccc/ffffff.png&text=News+Image",
-            pageTitle: news.source.name ?? "Source Title")
+            pageTitle: news.source.name ?? "Source Title", newsUrl: news.url ?? "https://www.google.com/")
 
         updateFormattedDate()
     }

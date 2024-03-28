@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import WebKit
 
 class NewsDetailViewController: UIViewController {
 
@@ -15,6 +16,7 @@ class NewsDetailViewController: UIViewController {
     @IBOutlet weak var pageDots: UIPageControl!
     
     weak var timer: Timer?
+    var webView: WKWebView!
     
     var slideIndex = 0
     
@@ -42,6 +44,8 @@ class NewsDetailViewController: UIViewController {
     
         
         timer = Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(slideToNext), userInfo: nil, repeats: true)
+        
+        webView = WKWebView(frame: self.view.bounds)
         
         pageDots.subviews.forEach {
             $0.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
@@ -138,6 +142,18 @@ extension NewsDetailViewController: UITableViewDelegate, UITableViewDataSource {
         return UITableViewCell()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedURL = tableList[indexPath.row]
+        if let url = URL(string: selectedURL.newsUrl) {
+            let request = URLRequest(url: url)
+            webView.load(request)
+            
+            if let navigationController = navigationController {
+                            navigationController.pushViewController(WebViewController(webView: webView), animated: true)
+                        }
+        }
+    }
+    
 }
 
 extension NewsDetailViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -156,6 +172,18 @@ extension NewsDetailViewController: UICollectionViewDelegate, UICollectionViewDa
 
         return cell
         
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let selectedURL = sliderList[indexPath.item]
+        if let url = URL(string: selectedURL.newsUrl) {
+            let request = URLRequest(url: url)
+            webView.load(request)
+            
+            if let navigationController = navigationController {
+                            navigationController.pushViewController(WebViewController(webView: webView), animated: true)
+                        }
+        }
     }
     
 }

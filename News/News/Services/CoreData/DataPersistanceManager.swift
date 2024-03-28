@@ -30,6 +30,7 @@ class DataPersistenceManager {
         item.id = model.id
         item.content = model.content
         item.imgUrl = model.imgUrl
+        item.newsUrl = model.newsUrl
         item.pageTitle = model.pageTitle
         item.title = model.title
         item.date = model.date

@@ -21,6 +21,7 @@ extension SavedNewsItems {
     @NSManaged public var formattedDate: String?
     @NSManaged public var id: UUID?
     @NSManaged public var imgUrl: String?
+    @NSManaged public var newsUrl: String?
     @NSManaged public var pageTitle: String?
     @NSManaged public var savedAt: Date?
     @NSManaged public var title: String?

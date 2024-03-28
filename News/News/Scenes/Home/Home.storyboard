@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rbL-YL-Sc9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pwc-vi-n7n">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -20,7 +20,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rfw-m9-EDE">
                                 <rect key="frame" x="0.0" y="103" width="393" height="100"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="PeC-Bd-8ZT"/>
                                 </constraints>
@@ -42,8 +42,9 @@
                                 </cells>
                             </collectionView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="iYU-XS-fDh">
-                                <rect key="frame" x="0.0" y="203" width="393" height="615"/>
+                                <rect key="frame" x="0.0" y="203" width="393" height="566"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="customCell" textLabel="p9D-xA-wBk" detailTextLabel="7Xb-X1-PCw" rowHeight="80" style="IBUITableViewCellStyleSubtitle" id="AO2-bD-8KY">
                                         <rect key="frame" x="0.0" y="50" width="393" height="80"/>
@@ -53,25 +54,27 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p9D-xA-wBk">
-                                                    <rect key="frame" x="20" y="15.999999999999998" width="45" height="25.333333333333332"/>
+                                                    <rect key="frame" x="19.999999999999996" y="14.666666666666664" width="48.666666666666664" height="28"/>
                                                     <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Title">
                                                             <attributes>
-                                                                <color key="NSColor" red="0.23683974490207904" green="0.62147499853881416" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                <font key="NSFont" size="22" name="Helvetica-Bold"/>
+                                                                <color key="NSColor" red="0.13594488852990688" green="0.13729087752525249" blue="0.13729087752525249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="24" name="Cochin-Bold"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
-                                                    <color key="highlightedColor" name="AccentColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Xb-X1-PCw">
-                                                    <rect key="frame" x="20" y="45.333333333333329" width="47" height="16.333333333333332"/>
+                                                    <rect key="frame" x="20" y="46" width="47" height="16.333333333333332"/>
                                                     <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Subtitle">
                                                             <attributes>
+                                                                <color key="NSColor" red="0.40859653520499106" green="0.41264204545454541" blue="0.41264204545454541" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <font key="NSFont" size="14" name="Helvetica"/>
                                                             </attributes>
                                                         </fragment>
@@ -80,15 +83,17 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="8Ol-xk-J9W">
-                                <rect key="frame" x="186.66666666666666" y="450.66666666666669" width="20" height="20"/>
+                                <rect key="frame" x="186.66666666666666" y="426" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" name="AccentColor"/>
+                        <color key="backgroundColor" red="0.65098041299999998" green="0.0078431377190000002" blue="0.050980389119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="iYU-XS-fDh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="7p3-Ch-4k7"/>
                             <constraint firstItem="iYU-XS-fDh" firstAttribute="top" secondItem="rfw-m9-EDE" secondAttribute="bottom" id="8zZ-mX-lJi"/>
@@ -112,34 +117,93 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1017.5572519083969" y="-34.507042253521128"/>
+            <point key="canvasLocation" x="6587" y="856"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="rdL-Eb-WGr">
+        <!--Tab Bar Controller-->
+        <scene sceneID="jF2-gr-Dae">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rbL-YL-Sc9" sceneMemberID="viewController">
+                <tabBarController id="pwc-vi-n7n" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fkg-Ag-00Y">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="darkvelvet"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zid-Yn-T5c" kind="relationship" relationship="viewControllers" id="fuK-Ru-Gmg"/>
+                        <segue destination="Bnb-ga-3dH" kind="relationship" relationship="viewControllers" id="Vn1-Fx-7he"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qaj-tG-NGA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4570" y="1161"/>
+        </scene>
+        <!--Saved News-->
+        <scene sceneID="meG-NB-2sV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bnb-ga-3dH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Saved News" image="star.fill" catalog="system" id="fWb-UW-fZn">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uzo-dV-vNP">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sPU-ds-IaV">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
-                            <color key="textColor" red="0.93451269260000003" green="0.93882681069999996" blue="0.95176916519999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8ox-mL-oje">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </toolbar>
                     <connections>
-                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="hZz-bR-he7"/>
+                        <segue destination="s2E-ni-SdO" kind="relationship" relationship="rootViewController" id="gvi-h0-fne"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DWU-Ko-9rb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6d9-WN-qNm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="90.839694656488547" y="-34.507042253521128"/>
+            <point key="canvasLocation" x="5543" y="1607"/>
+        </scene>
+        <!--SavedNews-->
+        <scene sceneID="gax-jO-REs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SavedNews" referencedIdentifier="SavedNews" id="s2E-ni-SdO" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Wuf-L4-5J7"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bTH-rJ-FvZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6541" y="1606"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="nfh-me-Du3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zid-Yn-T5c" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="hhA-qc-vMI">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pGr-b9-3Jm">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="amZ-1d-uJJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8C2-Yz-dZK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5544" y="856"/>
         </scene>
     </scenes>
     <resources>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <namedColor name="darkvelvet">
+            <color red="0.56620896464646464" green="0.0093286278001309172" blue="0.051780741332167757" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
